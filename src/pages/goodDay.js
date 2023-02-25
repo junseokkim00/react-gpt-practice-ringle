@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 
-export default function goodDay() {
+export default function GoodDay() {
   const [userInput, setUserInput] = useState("")
   const [result, setResult] = useState("")
 
